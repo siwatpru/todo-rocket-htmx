@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <title>TODO app</title>
+  </head
+  <body>
+    <h1>TODO app</h1>
+    <button hx-get="/api/hello" hx-swap="outerHTML">
+      Say hello
+    </button>
+  </body>
+</html>
